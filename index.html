@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>           
+        <link rel="stylesheet" href="style.css">
+         <link rel="icon" href="images/Previewlogo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+<!-- ajax-jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+              
+        <title>
+         FIDHA
+        </title>
+    </head>
+    <body>
+    <!-- navbar -->
+     <nav class="navbar  navbar-dark  navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img class="logo " src="images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contact" >Contact</a>
+          </li>
+        </ul>
+         
+      </div>
+    </div>
+  </div>
+</nav>
+     <!-- header -->
+   <div class="header-text">  
+    <p>Mern Stack web developer</p>
+    <h1>Hi I'm <span>FIDHA FATHIMA</span> <br>From  kannur, kerala</h1>
+   </div>
+</div>
+    </div>
+    
+    <!-- about -->
+     <div id="about">
+        <div class="cotainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">ABOUT ME</h1>
+                    <p>Hi, I’m Fidha Fathima, a passionate MERN stack developer with a unique journey that has shaped my approach to technology and problem-solving.  <br>
+                      <br>  After dedicating two years to preparing for the NEET entrance exam, I decided to pivot my career path and dive into the world of software development. This shift was driven by my fascination with technology and a desire to create impactful solutions through coding. I embraced this change and now work as a MERN stack developer, where I specialize in building dynamic and responsive web applications using MongoDB, Express.js, React, and Node.js.<br>
+
+            </br> My background in rigorous academic preparation has honed my analytical skills and attention to detail, which I now apply to developing innovative and efficient software solutions. I thrive on the challenge of transforming complex problems into user-friendly applications and am constantly exploring new technologies and best practices to enhance my skill set.<br>
+<br>In addition to my technical expertise, I am a collaborative team player who values clear communication and continuous learning. I’m excited about leveraging my diverse experiences and skills to contribute to meaningful projects and drive success in the tech industry.<br>
+                        <br>&nbsp;&nbsp;Feel free to explore my portfolio to see some of the projects I’ve worked on, and don’t hesitate to reach out if you’d like to connect or discuss potential opportunities!
+                          </p>
+                          <div class="tab-titles">
+                            <p class="tab-links activelink" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web devolepment</span><br>HTML CSS JavaScript</li>
+                                <li><span>problem-solving skills</span></li>
+                                <li><span>Team collaboration</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024</span><br>self  leanrning & practicing at BROTOTYPE</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>MERN Stack developer training at BROTOTYPE</li>
+
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!---------------------------- services -------------------->
+     <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Utilized HTML, CSS, and JavaScript to build interactive components in  Creating clones of popular platforms like Netflix and Spotify.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Created a user-friendly interface with a focus on visual hierarchy and ease of navigation.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Responsive Design</h2>
+                    <p>Ensured the application is mobile-friendly and accessible across various devices.</p>
+                </div>
+            </div>
+ </div>
+     </div>
+     <!-- portfolio -->
+      <div id="portfolio">
+        <div class="container"></div>
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work1.png">
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+            </div>
+        </div>
+      </div>
+      <!-- contact -->
+      <div id="contact">
+      <div class="container">
+      <div class="row">
+      <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p>fidhapichu461@gmail.com<i class="fas fa-paper-plane"></i></p>
+      <p>8547755810<i class="fa-solid fa-phone"></i></p>
+      <div class="social-icons">
+      <a href="https://www.facebook.com/snow.flaka.35513/"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/flaka_snow/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/fidha-fathima-3886301a6/"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <a href="images/my cv.pdf" class="btn btn-2">Download My Cv</a>
+      </div>
+      <!-- form -->
+      <div class="contact-right">
+        <form id="submit-form"  action="">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" row="6" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+     </form>
+      </div>
+    </div>
+    </div>
+    <!-- copyright -->
+    <div class="copyright">
+        <p>Copyright &copy; <i class="fas fa-heart"></i>Fidha.</p>
+    </div>
+</div>
+<!-- end -->
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <!-- poperjs -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap
+      -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <!-- fontawsome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+    integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script>
+        var    tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("activelink");
+             }
+             for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                 }
+                 event.currentTarget.classList.add("activelink");
+                 document.getElementById(tabname).classList.add("active-tab");
+        }
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwZJlvNBII_Kl559rd0GpIpi6bYhcy7O9Z_Ny8gtwhyxt9Wzglai8uPAgswaV2i9la33g/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+
+     </script>
+     <!-- |side menu -->
+      <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.stye.right="-200px";
+        }
+        
+      </script>
+      </body>
+     </html>
